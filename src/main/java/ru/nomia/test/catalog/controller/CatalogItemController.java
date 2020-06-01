@@ -17,7 +17,7 @@ import java.util.List;
 @Slf4j
 @RequestMapping("/v1/catalog")
 public class CatalogItemController {
-    private final String SUCCESS = "SUCCESS";
+    private static final String SUCCESS = "SUCCESS";
 
     @Autowired
     CatalogItemService catalogItemService;

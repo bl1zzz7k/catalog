@@ -6,9 +6,9 @@ import ru.nomia.test.catalog.domain.CatalogItemDTO;
 import java.util.List;
 
 public interface CatalogItemService {
-    CatalogItem saveCatalogItem(CatalogItemDTO itemDTO);
+    CatalogItem saveCatalogItem(final CatalogItemDTO itemDTO);
     List<CatalogItemDTO> getCatalogItem();
-    CatalogItem updateCatalogItem(CatalogItemDTO itemDTO);
-    boolean deleteCatalogItem(CatalogItemDTO itemDTO);
+    CatalogItem updateCatalogItem(final CatalogItemDTO itemDTO);
+    boolean deleteCatalogItem(final CatalogItemDTO itemDTO);
 
 }

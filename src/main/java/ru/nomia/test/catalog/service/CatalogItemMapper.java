@@ -11,6 +11,9 @@ import java.util.UUID;
 
 public class CatalogItemMapper {
 
+    private CatalogItemMapper() {
+    }
+
     public static CatalogItem toEntity(CatalogItemDTO itemDTO) {
         return getCatalogItem(itemDTO);
     }
