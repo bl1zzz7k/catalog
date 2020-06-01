@@ -1,0 +1,80 @@
+{
+  "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+  "type": "CATEGORY",
+  "name": "ovoshchi_frukty_zelen",
+  "properties": {
+    "label": "Овощи, Фрукты и Зелень"
+  },
+  "referenceItems": [
+    {
+      "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+      "type": "CATEGORY",
+      "name": "ovoshchi",
+      "properties": {
+        "label": "Овощи"
+      },
+      "referenceItems": [
+        {
+          "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+          "type": "CATEGORY",
+          "name": "zamorozhennue",
+          "properties": {
+            "label": "Замороженные"
+          },
+          "referenceItems": [
+            {
+              "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+              "type": "ITEM",
+              "name": "brokolli",
+              "properties": {
+                "label": "Броколи"
+              }
+            },
+            {
+              "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+              "type": "ITEM",
+              "name": "fasol",
+              "properties": {
+                "label": "Фасоль"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+      "type": "CATEGORY",
+      "name": "frukty",
+      "properties": {
+        "label": "Фрукты"
+      },
+      "referenceItems": [
+        {
+          "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+          "type": "ITEM",
+          "name": "yabloko",
+          "properties": {
+            "label": "Яблоко"
+          }
+        },
+        {
+          "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+          "type": "ITEM",
+          "name": "grusha",
+          "properties": {
+            "label": "Груша"
+          }
+        },
+        {
+          "uuid": "232909b8-a371-11ea-bb37-0242ac130002",
+          "type": "ITEM",
+          "name": "apelsin",
+          "properties": {
+            "label": "Апельсин"
+          }
+        }
+      ]
+    }
+  ]
+}
